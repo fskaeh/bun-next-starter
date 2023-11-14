@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "format": "prettier --ignore-path .gitignore '**/*.{css,scss,md,html,json,js,jsx,ts,tsx}' --write"
   },
   "dependencies": {
     "next": "^14",
