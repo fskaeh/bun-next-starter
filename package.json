@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
-    "format": "prettier --ignore-path .gitignore '**/*.{css,scss,md,html,json,js,jsx,ts,tsx}' --write"
+    "format": "prettier --ignore-path .gitignore '**/*.{css,scss,md,html,json,js,jsx,ts,tsx}' --write",
+    "format:style": "stylelint '**/*.{css,scss}'"
   },
   "dependencies": {
     "next": "14",
@@ -35,6 +36,10 @@
     "postcss": "8",
     "prettier": "3",
     "prettier-plugin-tailwindcss": "0",
+    "stylelint": "15",
+    "stylelint-config-prettier": "9",
+    "stylelint-config-standard": "34",
+    "stylelint-prettier": "4",
     "tailwindcss": "3",
     "typescript": "5"
   }
